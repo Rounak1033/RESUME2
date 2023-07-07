@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -127,16 +127,16 @@ body {
 
 }
 
-.contactInfo .language.percent {
+.contactInfo.language .percent {
     position: relative;
     width: 100%;
-    height: 6px;
+    height: 10px;
     background: #081921;
     display: block;
     margin-top: 5px;
 }
 
-.contactInfo .language.percent div {
+.contactInfo.language .percent div {
     position: absolute;
     top: 0;
     left: 0;
@@ -154,8 +154,12 @@ body {
     margin-bottom: 50px;
 }
 
+.about:last-child {
+    margin-bottom: 0;
+}
+
 .title {
-    color: #fff;
+    color: #b40d0d;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -168,4 +172,22 @@ p {
 .about .box {
     display: flex;
     flex-direction: row;
-} */
+    margin: 20px 0;
+
+}
+
+.about .box .year_company {
+    min-width: 150px;
+}
+
+.about .box .year_company h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
